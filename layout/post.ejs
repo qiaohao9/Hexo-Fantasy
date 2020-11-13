@@ -2,7 +2,7 @@
   <h1><%= page.title %></h1>
   <div class="meta">
     <% let post_date = date(page.date, "YYYY.MM.DD") %>
-    <span class="item"><i class="fas fa-tags"></i><time datetime="<%= post_date %>"><%= post_date %></time></span>
+    <span class="item"><i class="iconfont icon-calendar"></i><time datetime="<%= post_date %>"> <%= post_date %></time></span>
     <% page.tags.each(function(tag){ %>
     <span class="item"><i class="iconfont icon-tag"><a href="<%- url_for(tag.path) %>"><%= tag.name %></a></i></span>
     <% }) %>
