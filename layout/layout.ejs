@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="<%= config.language %>">
+  <%- partial('_partials/head') %>
+  <body>
+    <div class="wrapper">
+      <%- partial("_partials/header") %>
+      <main>
+        <%- body %>
+
+        <section class="pager">
+          <div class="paginator pager pagination no_pages">
+            <div class="paginator_container pagination_container"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <%- partial("_partials/footer") %>
+  </body>
+</html>
