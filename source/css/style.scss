@@ -5,7 +5,6 @@ Author: Shuibaco
 Author URI: https://shuiba.co
 MIT License: Copyright (c) 2017 Shuibaco
 */
-
 $pcolour: #555;
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -28,8 +27,8 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
+    // font-size: 100%;
+    // font: inherit;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -83,8 +82,7 @@ body {
     margin: 0 auto;
     color: #333;
     background: #f7f7f7;
-    font-family: 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'PingHei', sans-serif, Helvetica Neue, 'Work Sans', 'Microsoft YaHei',
-        SimSun;
+    font-family: 'Noto Serif SC',system-ui,'Helvetica Neue',Helvetica,Tahoma,Arial,'Hiragino Sans GB','NSimSun','仿宋体','SimSun','宋体',serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 2em;
